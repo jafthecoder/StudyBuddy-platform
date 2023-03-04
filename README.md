@@ -8,7 +8,7 @@
 
 --> Clone the repository using the command below :
 ```bash
-git clone https://github.com/divanov11/StudyBud.git
+git clone https://github.com/jafthecoder/StudyBuddy-platform.git
 
 ```
 
@@ -20,23 +20,18 @@ cd StudyBud
 
 --> Create a virtual environment :
 ```bash
-# Let's install virtualenv first
-pip install virtualenv
-
-# Then we create our virtual environment
-virtualenv envname
-
-```
+# Creating venv
+py manage.py -m venv venv
 
 --> Activate the virtual environment :
 ```bash
-envname\scripts\activate
+venv\Scripts\activate
 
 ```
 
 --> Install the requirements :
 ```bash
-pip install -r requirements.txt
+pip install django
 
 ```
 
@@ -46,7 +41,7 @@ pip install -r requirements.txt
 
 --> To run the App, we use :
 ```bash
-python manage.py runserver
+py manage.py runserver
 
 ```
 
