@@ -21,7 +21,7 @@ cd StudyBud
 --> Create a virtual environment :
 ```bash
 # Creating venv
-py manage.py -m venv venv
+py -m venv venv
 
 --> Activate the virtual environment :
 ```bash
